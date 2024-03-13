@@ -1,0 +1,9 @@
+Here we have 4 files
+1)data=contain the data on which we are going to play the game
+2)question_model= It contain the class name(question) have 2 variable :- 1)question as text
+                                                                         2)answer as answer
+3)quiz_brain = main logic
+               contain 2 method 1)run_game  2)still_run_the_game 
+4)main= IT is the main file .
+        It import all the above files and run the game
+        It create the question_bank inside the for loop and pass it too the object of class (quiz_brain)
